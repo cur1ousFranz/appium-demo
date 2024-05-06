@@ -1,5 +1,5 @@
 const mainScreen = require('../screens/MainActivity')
-const { When, Given } = require('@cucumber/cucumber')
+const { Given, When, Then } = require('@cucumber/cucumber')
 
 Given(/^I wait for "(.*?)" seconds$/, function(seconds) {
     mainScreen.waitSeconds(seconds);
@@ -7,4 +7,8 @@ Given(/^I wait for "(.*?)" seconds$/, function(seconds) {
 
 When(/^I tap the Button$/, async function() {
     await mainScreen.tapButton()
+})
+
+Then(/^I should see the text$/, async function() {
+    await mainScreen.textDisplayed("Hello World")
 })

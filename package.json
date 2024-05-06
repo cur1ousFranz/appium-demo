@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@cucumber/cucumber": "^9.5.1",
-    "appium": "^2.5.4"
+    "appium": "^2.5.4",
+    "chai": "^5.1.0"
   }
 }
