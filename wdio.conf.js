@@ -15,11 +15,9 @@ exports.config = {
         browserName: '',
         'appium:platformVersion': '12.0',
         "appium:automationName": "UiAutomator2",
-        "appium:deviceName": "Android",
+        "appium:deviceName": "Pixel 8 API 31",
         "appium:app":
           "C:/Users/A D M I N/OneDrive/Documents/demo-stripe-android/app/build/outputs/apk/dev/release/app-dev-release-unsigned.apk",
-        "appium:appPackage": "com.example.demo",
-        "appium:appActivity": ".ui.MainActivity",
         "appium:noReset": true,
     }],
     logLevel: 'info',
@@ -32,5 +30,6 @@ exports.config = {
     reporters: ['spec'],
     cucumberOpts: {
         require: ['./tests/steps/*.js'],
+        timeout: 120000
     },
 }
