@@ -22,7 +22,7 @@
     "webdriverio": "^8.36.1"
   },
   "dependencies": {
-    "@cucumber/cucumber": "^10.6.0",
+    "@cucumber/cucumber": "^9.5.1",
     "appium": "^2.5.4"
   }
 }

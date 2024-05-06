@@ -30,6 +30,5 @@ exports.config = {
     reporters: ['spec'],
     cucumberOpts: {
         require: ['./tests/steps/*.js'],
-        timeout: 120000
     },
 }
