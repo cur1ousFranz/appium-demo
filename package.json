@@ -24,6 +24,7 @@
   "dependencies": {
     "@cucumber/cucumber": "^9.5.1",
     "appium": "^2.5.4",
-    "chai": "^5.1.0"
+    "chai": "^5.1.0",
+    "wdio-cucumberjs-json-reporter": "^5.2.1"
   }
 }

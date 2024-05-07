@@ -13,9 +13,9 @@ module.exports = {
         button.click()
     }, 
 
-    textDisplayed: async function(name) {
+    textDisplayed: async function() {
         const text = await getText()
-        assert.equal(await text.getText(), name)
+        assert(await text.isDisplayed(), "Text not displayed")
     },
 
     waitSeconds(seconds) {

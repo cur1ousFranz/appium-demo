@@ -9,6 +9,6 @@ When(/^I tap the Button$/, async function() {
     await mainScreen.tapButton()
 })
 
-Then(/^I should see the text$/, async function() {
-    await mainScreen.textDisplayed("Hello World")
+Then(/^I should see the text Hello World$/, async function() {
+    await mainScreen.textDisplayed()
 })

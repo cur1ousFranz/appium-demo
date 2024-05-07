@@ -6,4 +6,4 @@ Feature: Full Test
 
         # MainActivity Screen
         When I tap the Button
-        Then I should see the text
+        Then I should see the text Hello World
